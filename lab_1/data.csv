@@ -1,0 +1,5 @@
+name,age,city,category,sales,a,b,gender,height,weight,profession
+Nikhil Ramesh Wankhede,20.0,Delhi,A,200.0,5.0,10.0,Male,,,None
+Steve,22.0,Mumbai,B,120.0,2.0,3.0,Male,,,None
+Aman,30.0,Pune,A,250.0,7.0,8.0,Female,,,None
+Kevin,55.0,San Frasisco,A,200.0,1.0,1.0,Male,5.8,78.0,None

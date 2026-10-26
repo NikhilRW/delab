@@ -1,0 +1,34 @@
+{
+  "0": {
+    "id": 1,
+    "todo": "Do something nice for someone you care about",
+    "completed": false,
+    "userId": 152,
+    "name": null,
+    "createdAt": null
+  },
+  "1": {
+    "id": 2,
+    "todo": "Memorize a poem",
+    "completed": true,
+    "userId": 13,
+    "name": "Nikhil",
+    "createdAt": null
+  },
+  "2": {
+    "id": 3,
+    "todo": "Watch a classic movie",
+    "completed": true,
+    "userId": 68,
+    "name": null,
+    "createdAt": null
+  },
+  "4": {
+    "id": 1,
+    "todo": "buy eggs",
+    "completed": "False",
+    "userId": 101,
+    "name": "Nikhil",
+    "createdAt": null
+  }
+}
