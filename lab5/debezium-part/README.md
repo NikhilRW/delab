@@ -8,6 +8,62 @@ these services. All processes must run in the **same Codespace**.
 MySQL :3306 -> Debezium MySQL plugin in Kafka Connect :8083 -> Kafka :9092
 ```
 
+## Quick setup and background startup
+
+In an **Ubuntu 22.04/24.04 Codespaces Bash terminal**, install and initialize:
+
+```bash
+cd "$(git rev-parse --show-toplevel)/lab5/debezium-part"
+bash setup.sh
+```
+
+Then start all services and register the connector:
+
+```bash
+bash start.sh
+```
+
+`setup.sh` installs packages, downloads Kafka and the complete Debezium plugin,
+configures/restarts the native MySQL server, initializes the sample database and
+CDC account, and formats Kafka storage only if it has not already been formatted.
+It can be rerun with Kafka and Connect stopped. It does not erase existing data.
+
+`start.sh` starts MySQL, Kafka, and Connect in order, waits for readiness, applies
+`register.json`, and waits for the connector **and its task** to be `RUNNING`.
+Kafka and Connect run in the background, so you do not need separate terminals.
+Repeated starts reuse processes launched by these scripts and reapply connector
+configuration without resetting its offsets. Processes started manually must be
+stopped before using the scripts. If startup fails, the script shows recent logs
+and gracefully stops only the Kafka/Connect processes it started in that attempt.
+
+View logs or status:
+
+```bash
+tail -f .runtime/logs/kafka.log .runtime/logs/connect.log
+```
+
+```bash
+curl --fail http://127.0.0.1:8083/connectors/mysql-connector/status | jq .
+```
+
+Stop Kafka/Connect, or stop all three services:
+
+```bash
+bash stop.sh
+# Include the native MySQL server (which may also be used by other local labs):
+bash stop.sh --mysql
+```
+
+PID files and logs are under `.runtime/`. Stopping preserves Kafka/MySQL data.
+The scripts are run with `bash` (not `sh`) and request sudo only where needed;
+do not run the whole scripts with sudo. They can also be invoked by absolute
+path and switch to the lab directory automatically. Background services survive
+closing a terminal, but must be restarted after stopping/rebuilding a Codespace.
+
+Use [step 8](#8-verify-real-change-events) below to consume and verify CDC events.
+The following sections describe the equivalent foreground/manual workflow; choose
+one startup method at a time.
+
 ## Versions and files
 
 Use Ubuntu 22.04/24.04, MySQL **8.0**, Java **17**, Kafka **3.9.0** (Scala 2.13),
@@ -16,6 +72,9 @@ in Codespaces, not a local Windows PowerShell terminal.
 
 | File | Purpose |
 | --- | --- |
+| `setup.sh` | Install dependencies, configure MySQL, and initialize Kafka |
+| `start.sh` / `stop.sh` | Manage background processes, readiness, and registration |
+| `lib.sh` | Shared lifecycle helpers and process/port checks |
 | `env.sh` | Select Java/Kafka and switch to the lab working directory |
 | `config/mysql.cnf` | Enable MySQL row-based binary logging |
 | `init.sql` | Create `college.students`, a seed row, and the CDC database user |
@@ -220,6 +279,9 @@ List topics if needed:
 ```
 
 ## Stop and restart
+
+For the background scripts, use `bash stop.sh` (or `bash stop.sh --mysql`),
+then `bash start.sh` to resume. For the foreground/manual workflow:
 
 1. Stop consumers with **Ctrl+C**.
 2. Stop **Connect** with **Ctrl+C** in terminal B; wait for shutdown.

@@ -6,9 +6,8 @@ CREATE TABLE IF NOT EXISTS college.students (
     department VARCHAR(100) NOT NULL
 );
 
-INSERT INTO college.students (id, name, department)
-SELECT 1, 'Asha', 'Computer Engineering'
-WHERE NOT EXISTS (SELECT 1 FROM college.students WHERE id = 1);
+INSERT IGNORE INTO college.students (id, name, department)
+VALUES (1, 'Asha', 'Computer Engineering');
 
 -- Example credentials for this loopback-only lab; also used in register.json.
 CREATE USER IF NOT EXISTS 'debezium'@'localhost' IDENTIFIED BY 'debezium';
