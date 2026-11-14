@@ -1,0 +1,75 @@
+services:
+  postgres:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: airflow
+      POSTGRES_PASSWORD: airflow
+      POSTGRES_DB: airflow
+    volumes:
+      - postgres-db-volume:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD", "pg_isready", "-U", "airflow"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  airflow-init:
+    image: apache/airflow:3.4.0
+    depends_on:
+      postgres:
+        condition: service_healthy
+    environment: &airflow-common-env
+      AIRFLOW__CORE__EXECUTOR: LocalExecutor
+      AIRFLOW__DATABASE__SQL_ALCHEMY_CONN: postgresql+psycopg2://airflow:airflow@postgres/airflow
+      AIRFLOW__CORE__LOAD_EXAMPLES: "false"
+      AIRFLOW__API__AUTH_BACKENDS: airflow.api.auth.backend.basic_auth
+      STUDENT_RAW_PATH: /opt/airflow/project/data/students_raw.csv
+      STUDENT_ETL_OUTPUT: /opt/airflow/project/outputs/experiment_9
+    volumes: &airflow-common-volumes
+      - .:/opt/airflow/project/experiment_9
+      - ..:/opt/airflow/project
+      - ./dags:/opt/airflow/dags
+    entrypoint: /bin/bash
+    command: -c "airflow db migrate && airflow users create --username admin --password admin --firstname Admin --lastname User --role Admin --email admin@example.com || true"
+
+  airflow-apiserver:
+    image: apache/airflow:3.4.0
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+    environment: *airflow-common-env
+    volumes: *airflow-common-volumes
+    ports:
+      - "8080:8080"
+    command: api-server
+
+  airflow-scheduler:
+    image: apache/airflow:3.4.0
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+    environment: *airflow-common-env
+    volumes: *airflow-common-volumes
+    command: scheduler
+
+  airflow-dag-processor:
+    image: apache/airflow:3.4.0
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+    environment: *airflow-common-env
+    volumes: *airflow-common-volumes
+    command: dag-processor
+
+  airflow-triggerer:
+    image: apache/airflow:3.4.0
+    depends_on:
+      airflow-init:
+        condition: service_completed_successfully
+    environment: *airflow-common-env
+    volumes: *airflow-common-volumes
+    command: triggerer
+
+volumes:
+  postgres-db-volume:
+

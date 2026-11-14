@@ -1,0 +1,1 @@
+{"class":"org.apache.spark.ml.feature.VectorAssembler","timestamp":1794646038824,"sparkVersion":"4.2.0","uid":"VectorAssembler_02563b91902d","paramMap":{"inputCols":["attendance_pct","study_hours_weekly","internal_marks","assignments_completed"],"outputCol":"features"},"defaultParamMap":{"handleInvalid":"error","outputCol":"VectorAssembler_02563b91902d__output"}}

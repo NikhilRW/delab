@@ -1,0 +1,934 @@
+{
+  "total_records": [
+    {
+      "total_records": 525
+    }
+  ],
+  "average_attendance": [
+    {
+      "average_attendance": 72.72115384615384
+    }
+  ],
+  "count_by_result": [
+    {
+      "passed": 0,
+      "count": 96
+    },
+    {
+      "passed": 1,
+      "count": 424
+    },
+    {
+      "passed": 2,
+      "count": 5
+    }
+  ],
+  "attendance_above_75": [
+    {
+      "student_id": "S0510",
+      "attendance_pct": 105
+    },
+    {
+      "student_id": "S0509",
+      "attendance_pct": 104
+    },
+    {
+      "student_id": "S0508",
+      "attendance_pct": 103
+    },
+    {
+      "student_id": "S0507",
+      "attendance_pct": 102
+    },
+    {
+      "student_id": "S0506",
+      "attendance_pct": 101
+    },
+    {
+      "student_id": "S0049",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0080",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0086",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0164",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0199",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0218",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0237",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0276",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0277",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0311",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0341",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0414",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0500",
+      "attendance_pct": 100
+    },
+    {
+      "student_id": "S0058",
+      "attendance_pct": 99
+    },
+    {
+      "student_id": "S0110",
+      "attendance_pct": 99
+    },
+    {
+      "student_id": "S0121",
+      "attendance_pct": 99
+    },
+    {
+      "student_id": "S0389",
+      "attendance_pct": 99
+    },
+    {
+      "student_id": "S0465",
+      "attendance_pct": 99
+    },
+    {
+      "student_id": "S0017",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0029",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0032",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0077",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0115",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0120",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0195",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0201",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0248",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0255",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0282",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0301",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0314",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0344",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0349",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0430",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0431",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0460",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0461",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0512",
+      "attendance_pct": 98
+    },
+    {
+      "student_id": "S0187",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0189",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0206",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0271",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0340",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0345",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0394",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0404",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0448",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0451",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0469",
+      "attendance_pct": 97
+    },
+    {
+      "student_id": "S0006",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0009",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0047",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0083",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0144",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0149",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0228",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0235",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0318",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0392",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0484",
+      "attendance_pct": 96
+    },
+    {
+      "student_id": "S0023",
+      "attendance_pct": 95
+    },
+    {
+      "student_id": "S0053",
+      "attendance_pct": 95
+    },
+    {
+      "student_id": "S0054",
+      "attendance_pct": 95
+    },
+    {
+      "student_id": "S0102",
+      "attendance_pct": 95
+    },
+    {
+      "student_id": "S0152",
+      "attendance_pct": 95
+    },
+    {
+      "student_id": "S0233",
+      "attendance_pct": 95
+    },
+    {
+      "student_id": "S0348",
+      "attendance_pct": 95
+    },
+    {
+      "student_id": "S0361",
+      "attendance_pct": 95
+    },
+    {
+      "student_id": "S0433",
+      "attendance_pct": 95
+    },
+    {
+      "student_id": "S0518",
+      "attendance_pct": 95
+    },
+    {
+      "student_id": "S0109",
+      "attendance_pct": 94
+    },
+    {
+      "student_id": "S0256",
+      "attendance_pct": 94
+    },
+    {
+      "student_id": "S0281",
+      "attendance_pct": 94
+    },
+    {
+      "student_id": "S0339",
+      "attendance_pct": 94
+    },
+    {
+      "student_id": "S0396",
+      "attendance_pct": 94
+    },
+    {
+      "student_id": "S0397",
+      "attendance_pct": 94
+    },
+    {
+      "student_id": "S0436",
+      "attendance_pct": 94
+    },
+    {
+      "student_id": "S0458",
+      "attendance_pct": 94
+    },
+    {
+      "student_id": "S0037",
+      "attendance_pct": 93
+    },
+    {
+      "student_id": "S0129",
+      "attendance_pct": 93
+    },
+    {
+      "student_id": "S0147",
+      "attendance_pct": 93
+    },
+    {
+      "student_id": "S0157",
+      "attendance_pct": 93
+    },
+    {
+      "student_id": "S0288",
+      "attendance_pct": 93
+    },
+    {
+      "student_id": "S0479",
+      "attendance_pct": 93
+    },
+    {
+      "student_id": "S0020",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0056",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0070",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0075",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0082",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0180",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0232",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0295",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0316",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0487",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0515",
+      "attendance_pct": 92
+    },
+    {
+      "student_id": "S0043",
+      "attendance_pct": 91
+    },
+    {
+      "student_id": "S0094",
+      "attendance_pct": 91
+    },
+    {
+      "student_id": "S0125",
+      "attendance_pct": 91
+    },
+    {
+      "student_id": "S0335",
+      "attendance_pct": 91
+    },
+    {
+      "student_id": "S0421",
+      "attendance_pct": 91
+    },
+    {
+      "student_id": "S0435",
+      "attendance_pct": 91
+    },
+    {
+      "student_id": "S0466",
+      "attendance_pct": 91
+    },
+    {
+      "student_id": "S0486",
+      "attendance_pct": 91
+    },
+    {
+      "student_id": "S0490",
+      "attendance_pct": 91
+    },
+    {
+      "student_id": "S0107",
+      "attendance_pct": 90
+    },
+    {
+      "student_id": "S0143",
+      "attendance_pct": 90
+    },
+    {
+      "student_id": "S0160",
+      "attendance_pct": 90
+    },
+    {
+      "student_id": "S0196",
+      "attendance_pct": 90
+    },
+    {
+      "student_id": "S0212",
+      "attendance_pct": 90
+    },
+    {
+      "student_id": "S0475",
+      "attendance_pct": 90
+    },
+    {
+      "student_id": "S0076",
+      "attendance_pct": 89
+    },
+    {
+      "student_id": "S0134",
+      "attendance_pct": 89
+    },
+    {
+      "student_id": "S0186",
+      "attendance_pct": 89
+    },
+    {
+      "student_id": "S0223",
+      "attendance_pct": 89
+    },
+    {
+      "student_id": "S0371",
+      "attendance_pct": 89
+    },
+    {
+      "student_id": "S0375",
+      "attendance_pct": 89
+    },
+    {
+      "student_id": "S0025",
+      "attendance_pct": 88
+    },
+    {
+      "student_id": "S0059",
+      "attendance_pct": 88
+    },
+    {
+      "student_id": "S0099",
+      "attendance_pct": 88
+    },
+    {
+      "student_id": "S0338",
+      "attendance_pct": 88
+    },
+    {
+      "student_id": "S0424",
+      "attendance_pct": 88
+    },
+    {
+      "student_id": "S0455",
+      "attendance_pct": 88
+    },
+    {
+      "student_id": "S0520",
+      "attendance_pct": 88
+    },
+    {
+      "student_id": "S0014",
+      "attendance_pct": 87
+    },
+    {
+      "student_id": "S0042",
+      "attendance_pct": 87
+    },
+    {
+      "student_id": "S0062",
+      "attendance_pct": 87
+    },
+    {
+      "student_id": "S0111",
+      "attendance_pct": 87
+    },
+    {
+      "student_id": "S0246",
+      "attendance_pct": 87
+    },
+    {
+      "student_id": "S0324",
+      "attendance_pct": 87
+    },
+    {
+      "student_id": "S0492",
+      "attendance_pct": 87
+    },
+    {
+      "student_id": "S0068",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0088",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0211",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0230",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0306",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0310",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0326",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0395",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0405",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0434",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0456",
+      "attendance_pct": 86
+    },
+    {
+      "student_id": "S0001",
+      "attendance_pct": 85
+    },
+    {
+      "student_id": "S0016",
+      "attendance_pct": 85
+    },
+    {
+      "student_id": "S0184",
+      "attendance_pct": 85
+    },
+    {
+      "student_id": "S0191",
+      "attendance_pct": 85
+    },
+    {
+      "student_id": "S0243",
+      "attendance_pct": 85
+    },
+    {
+      "student_id": "S0312",
+      "attendance_pct": 85
+    },
+    {
+      "student_id": "S0401",
+      "attendance_pct": 85
+    },
+    {
+      "student_id": "S0406",
+      "attendance_pct": 85
+    },
+    {
+      "student_id": "S0001",
+      "attendance_pct": 85
+    },
+    {
+      "student_id": "S0511",
+      "attendance_pct": 85
+    },
+    {
+      "student_id": "S0112",
+      "attendance_pct": 84
+    },
+    {
+      "student_id": "S0229",
+      "attendance_pct": 84
+    },
+    {
+      "student_id": "S0263",
+      "attendance_pct": 84
+    },
+    {
+      "student_id": "S0267",
+      "attendance_pct": 84
+    },
+    {
+      "student_id": "S0315",
+      "attendance_pct": 84
+    },
+    {
+      "student_id": "S0350",
+      "attendance_pct": 84
+    },
+    {
+      "student_id": "S0376",
+      "attendance_pct": 84
+    },
+    {
+      "student_id": "S0452",
+      "attendance_pct": 84
+    },
+    {
+      "student_id": "S0498",
+      "attendance_pct": 84
+    },
+    {
+      "student_id": "S0004",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0015",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0036",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0071",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0135",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0172",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0177",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0227",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0266",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0327",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0355",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0419",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0004",
+      "attendance_pct": 83
+    },
+    {
+      "student_id": "S0021",
+      "attendance_pct": 82
+    },
+    {
+      "student_id": "S0040",
+      "attendance_pct": 82
+    },
+    {
+      "student_id": "S0060",
+      "attendance_pct": 82
+    },
+    {
+      "student_id": "S0158",
+      "attendance_pct": 82
+    },
+    {
+      "student_id": "S0222",
+      "attendance_pct": 82
+    },
+    {
+      "student_id": "S0240",
+      "attendance_pct": 82
+    },
+    {
+      "student_id": "S0262",
+      "attendance_pct": 82
+    },
+    {
+      "student_id": "S0275",
+      "attendance_pct": 82
+    },
+    {
+      "student_id": "S0516",
+      "attendance_pct": 82
+    },
+    {
+      "student_id": "S0011",
+      "attendance_pct": 81
+    },
+    {
+      "student_id": "S0137",
+      "attendance_pct": 81
+    },
+    {
+      "student_id": "S0225",
+      "attendance_pct": 81
+    },
+    {
+      "student_id": "S0278",
+      "attendance_pct": 81
+    },
+    {
+      "student_id": "S0280",
+      "attendance_pct": 81
+    },
+    {
+      "student_id": "S0299",
+      "attendance_pct": 81
+    },
+    {
+      "student_id": "S0415",
+      "attendance_pct": 81
+    },
+    {
+      "student_id": "S0463",
+      "attendance_pct": 81
+    },
+    {
+      "student_id": "S0167",
+      "attendance_pct": 80
+    },
+    {
+      "student_id": "S0296",
+      "attendance_pct": 80
+    },
+    {
+      "student_id": "S0359",
+      "attendance_pct": 80
+    },
+    {
+      "student_id": "S0388",
+      "attendance_pct": 80
+    },
+    {
+      "student_id": "S0422",
+      "attendance_pct": 80
+    },
+    {
+      "student_id": "S0441",
+      "attendance_pct": 80
+    },
+    {
+      "student_id": "S0030",
+      "attendance_pct": 79
+    },
+    {
+      "student_id": "S0050",
+      "attendance_pct": 79
+    },
+    {
+      "student_id": "S0123",
+      "attendance_pct": 79
+    },
+    {
+      "student_id": "S0251",
+      "attendance_pct": 79
+    },
+    {
+      "student_id": "S0373",
+      "attendance_pct": 79
+    },
+    {
+      "student_id": "S0443",
+      "attendance_pct": 79
+    },
+    {
+      "student_id": "S0459",
+      "attendance_pct": 79
+    },
+    {
+      "student_id": "S0464",
+      "attendance_pct": 79
+    },
+    {
+      "student_id": "S0488",
+      "attendance_pct": 79
+    },
+    {
+      "student_id": "S0190",
+      "attendance_pct": 78
+    },
+    {
+      "student_id": "S0261",
+      "attendance_pct": 78
+    },
+    {
+      "student_id": "S0320",
+      "attendance_pct": 78
+    },
+    {
+      "student_id": "S0358",
+      "attendance_pct": 78
+    },
+    {
+      "student_id": "S0028",
+      "attendance_pct": 77
+    },
+    {
+      "student_id": "S0057",
+      "attendance_pct": 77
+    },
+    {
+      "student_id": "S0072",
+      "attendance_pct": 77
+    },
+    {
+      "student_id": "S0179",
+      "attendance_pct": 77
+    },
+    {
+      "student_id": "S0305",
+      "attendance_pct": 77
+    },
+    {
+      "student_id": "S0319",
+      "attendance_pct": 77
+    },
+    {
+      "student_id": "S0124",
+      "attendance_pct": 76
+    },
+    {
+      "student_id": "S0151",
+      "attendance_pct": 76
+    },
+    {
+      "student_id": "S0219",
+      "attendance_pct": 76
+    },
+    {
+      "student_id": "S0416",
+      "attendance_pct": 76
+    }
+  ],
+  "average_marks_by_result": [
+    {
+      "result": "Fail",
+      "average_internal_marks": 19.99009900990099
+    },
+    {
+      "result": "Pass",
+      "average_internal_marks": 26.433962264150942
+    }
+  ]
+}

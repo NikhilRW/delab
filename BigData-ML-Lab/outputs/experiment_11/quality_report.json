@@ -1,0 +1,14 @@
+{
+  "input_records": 525,
+  "rejected_records": 25,
+  "valid_cleaned_records": 500,
+  "remaining_duplicate_ids": 0,
+  "remaining_invalid_records": 0,
+  "issue_counts": {
+    "missing_values": 5,
+    "duplicate_student_ids": 5,
+    "out_of_range_values": 10,
+    "invalid_pass_fail_labels": 5,
+    "invalid_data_types": 0
+  }
+}
